@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/predefinedText"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/predefined_jobs"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="416dp"
+        android:layout_height="454dp"
+        android:fillViewport="true"
+        android:paddingLeft="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/predefinedText"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/WalkADog"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/walk_my_dog" />
+
+            <Button
+                android:id="@+id/FixAComputer"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/fix_my_computer" />
+
+            <Button
+                android:id="@+id/MowALawn"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/mow_my_lawn" />
+
+            <Button
+                android:id="@+id/PickUpGroceries"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/pickup_my_groceries" />
+
+            <Button
+                android:id="@+id/BabySitting"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/babysitting" />
+
+            <Button
+                android:id="@+id/DropToAirport"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:text="@string/dropoff_to_airport" />
+
+            <Button
+                android:id="@+id/AirportPickup"
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#BAA287"
+                android:padding="10dp"
+                android:rotationX="0"
+                android:text="@string/pickup_from_airport" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/StartFromScratch"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#E6E3E4"
+        android:text="@string/start_from_scratch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScrollView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#BDD4F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        android:contentDescription="@string/back_button" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="232dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/ScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/upsidedown"
+        android:contentDescription="@string/upside_down_worm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

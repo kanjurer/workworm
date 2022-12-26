@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">csci3130-g2-quick-cash</string>
+    <string name="workworm">WorkWorm</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="login">LOGIN</string>
+    <string name="i_m_a_new_user">I\'M A NEW USER</string>
+    <string name="what_workworm_is_for">Looking for quick cash? Looking to give away your chores? That\'s what WorkWorm is for!</string>
+    <string name="csci3130_g2">CSCI3130-G2</string>
+    <string name="cartoon_worm">Cartoon Worm</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="back_button">Back Button</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name*</string>
+    <string name="regEmail">Email*</string>
+    <string name="regPassword">Password*</string>
+    <string name="verify_your_account">Verify your Account</string>
+    <string name="required">(*) = required</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry">Expiry (MMYY)</string>
+    <string name="security">Security</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="add_job_posting">Add Job Posting</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="preferences">Preferences</string>
+
+    <string name="INVALID_TITLE">Provide a Title greater than 3 characters.</string>
+    <string name="INVALID_DESCRIPTION">Provide a description greater than 5 characters.</string>
+    <string name="INVALID_DATE">Invalid date.</string>
+    <string name="PAST_DATE">Past date.</string>
+    <string name="INVALID_DURATION">Duration (hours) should be greater than 0.</string>
+    <string name="INVALID_PLACE">Invalid Place.</string>
+    <string name="INVALID_SALARY">Salary should be greater than or equal to 5 CAD.</string>
+    <string name="INVALID_EMPLOYEE">This email isn\'t linked to any known Worm.</string>
+    <string name="EMPTY_STRING"></string>
+    <string name="Profile">Profile</string>
+    <string name="INVALID_HOURLY">Hourly wage should be greater than 0.</string>
+    <string name="INVALID_HOURS">Hours worked should be greater than 0.</string>
+    <string name="don_t_worry_you_can_always_come_back_and_change_this_later">Don\'t worry, you can always come back and change this later.</string>
+    <string name="INVALID_EMAIL">Invalid Email.</string>
+    <string name="INVALID_PASSWORD">Invalid Password.</string>
+    <string name="INVALID_CREDENTIALS">Incorrect Email or Password.</string>
+    <string name="INVALID_FULL_NAME">Invalid Name.</string>
+    <string name="INVALID_CONTACT">Invalid Contact.</string>
+    <string name="job_title">Job Title</string>
+    <string name="submit">Submit</string>
+    <string name="urgent">Urgent</string>
+    <string name="date_dd_mm_yyyy">Date (DD/MM/YYYY)</string>
+    <string name="expected_duration_hours">Expected Duration (Hours)</string>
+    <string name="place_city_postal_code">Place (City, Postal Code)</string>
+    <string name="salary_cad_hour">Salary ($CAD/Hour)</string>
+    <string name="job_description">Job Description</string>
+    <string name="description">Description</string>
+    <string name="job_details">Job Details</string>
+    <string name="back">back</string>
+    <string name="my_postings">My Postings</string>
+    <string name="logout">Logout</string>
+    <string name="let_s_make_some_cash">Let\'s make some cash!</string>
+    <string name="job_posting">Job Posting</string>
+    <string name="title_activity_my_postings">MyPostingsActivity</string>
+    <string name="large_text"> </string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically.</string>
+    <string name="attachment_title">Download incoming attachments.</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails.
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested.</string>
+    <string name="settings">settings</string>
+    <string name="close_listing">Close Listing</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="INVALID_SALARY_RANGE">Salary range is invalid.</string>
+    <string name="INVALID_DURATION_RANGE">Duration range is invalid.</string>
+    <string name="INVALID_DATE_RANGE">Date range is invalid.</string>
+    <string name="dollar">$</string>
+    <string name="perhour">/hour</string>
+    <string name="job_search">Search Jobs</string>
+    <string name="searchC">Search</string>
+    <string name="email_of_worm_for_hire">Email of Worm-for-Hire:</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="hourly_wage">Hourly Wage:</string>
+    <string name="number_of_hours_worked">Number of Hours worked:</string>
+    <string name="close_posting">Close Posting</string>
+    <string name="leave_a_review">Leave a Review</string>
+    <string name="preferences2">Preferences</string>
+    <string name="urgent2">Urgent</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="title">Title</string>
+    <string name="place_city_postal_code2">Place (City or City, Postal Code)</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="filtered_posts">Filtered Posts</string>
+    <string name="close_posting2">Close Posting</string>
+    <string name="verified_worm">Verified Worm ✓</string>
+    <string name="verified_worm_for_hire">Verified Worm-for-Hire ✓</string>
+    <string name="today_near_you">Today Near You</string>
+    <string name="refresh">refresh</string>
+    <string name="menu_icon">menu icon</string>
+    <string name="close">Close ⏎</string>
+    <string name="predefined_jobs">Predefined Jobs</string>
+    <string name="walk_my_dog">Walk my Dog</string>
+    <string name="fix_my_computer">Fix my Computer</string>
+    <string name="mow_my_lawn">Mow my Lawn</string>
+    <string name="pickup_my_groceries">Pickup my Groceries</string>
+    <string name="babysitting">Babysitting</string>
+    <string name="dropoff_to_airport">Dropoff to Airport</string>
+    <string name="pickup_from_airport">Pickup from Airport</string>
+    <string name="start_from_scratch">Start From Scratch</string>
+    <string name="upside_down_worm">upside down worm</string>
+    <string name="search2">SEARCH</string>
+    <string name="filter">Filter</string>
+    <string name="verify_worm">Verify Worm</string>
+    <string name="makepayment2">MAKE PAYMENT</string>
+    <!--    <string name="title_activity_maps">MapsActivity</string>-->
+</resources>

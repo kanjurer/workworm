@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998414209382",
+    "project_id": "csci3130-g2-quick-cash-31665",
+    "storage_bucket": "csci3130-g2-quick-cash-31665.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998414209382:android:8ca44b56eebe34af3ff8a7",
+        "android_client_info": {
+          "package_name": "com.example.csci3130_g2_quick_cash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998414209382-cdb53c40hs6opd06j5h52sou3oup4bg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgvBzFDWJyhUlXipYXcX1b7R6x2msvMgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998414209382-cdb53c40hs6opd06j5h52sou3oup4bg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
